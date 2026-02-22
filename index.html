@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | AURAMATH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f1115;
+            --surface: #1a1d23;
+            --primary: #bb86fc;
+            --text-main: #e0e0e0;
+            --text-dim: #9e9e9e;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(to bottom, #16191e, var(--bg));
+        }
+
+        .brand {
+            font-weight: 900;
+            letter-spacing: 4px;
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .tagline {
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: var(--text-dim);
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 40px 0;
+        }
+
+        .card {
+            background: var(--surface);
+            padding: 30px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.2rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            border-bottom: 1px solid rgba(187, 134, 252, 0.2);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        p, li {
+            color: var(--text-dim);
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            opacity: 0.5;
+            letter-spacing: 1px;
+        }
+
+        .highlight {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="brand">AURAMATH</h1>
+        <div class="tagline">PRIVACY PROTOCOL</div>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>1. OVERVIEW</h2>
+            <p>AuraMath is committed to protecting user privacy while providing high-fidelity computational intelligence. This policy outlines how we handle data within the application environment.</p>
+        </div>
+
+        <div class="card">
+            <h2>2. DATA COLLECTION</h2>
+            <p>We do not collect personal identifiable information (PII) such as your name, address, or phone number unless voluntarily submitted to the Global Leaderboard. The following data points are processed:</p>
+            <ul>
+                <li><span class="highlight">Performance Metrics:</span> IQ scores and math results (stored locally or on D1 Database if submitted).</li>
+                <li><span class="highlight">Device Identifiers:</span> Used by Google AdMob for personalized advertising.</li>
+                <li><span class="highlight">AI Queries:</span> Mathematical strings sent to Cloudflare Edge AI for step-by-step synthesis.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. THIRD-PARTY SERVICES</h2>
+            <p>Our system integrates specific third-party providers to enhance functionality:</p>
+            <ul>
+                <li><span class="highlight">Google AdMob:</span> For monetization and ad delivery.</li>
+                <li><span class="highlight">Cloudflare AI:</span> For processing complex mathematical solutions.</li>
+                <li><span class="highlight">D1 Database:</span> For hosting global rankings.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. DATA SECURITY</h2>
+            <p>All transmissions between the AuraMath client and the Cloudflare Edge nodes are encrypted. We implement SHA-256 HMAC signatures to verify the integrity of all data moving to the Global Leaderboard.</p>
+        </div>
+
+        <div class="card">
+            <h2>5. USER RIGHTS</h2>
+            <p>Users may clear their local performance data by clearing the application cache in Android settings. For removal of scores from the Global Leaderboard, users may contact system support.</p>
+        </div>
+
+        <div class="card">
+            <h2>6. CONTACT</h2>
+            <p>For inquiries regarding this privacy protocol, contact the system administrators via the support channels provided on the Play Store.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        AURAMATH SYSTEMS &copy; 2026 | ALL MODULES SECURED
+    </footer>
+
+</body>
+</html>
